@@ -1,12 +1,12 @@
 # Core Features:
 
-Traditional Pomodoro timer (25/5 minute intervals)
-Prompt for mood(s) after each session
-Optional quick notes field
-Daily/weekly visualization of:
-- Mood trends
-- Completion rates
-- Time of day patterns
+- Traditional Pomodoro timer (25/5 minute intervals)
+- Prompt for mood(s) after each session
+- Optional quick notes field
+- Daily/weekly visualization of:
+    - Mood trends
+    - Completion rates
+    - Time of day patterns
 
 
 # Goals (roughly in order of importance)
