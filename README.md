@@ -3,14 +3,14 @@
 - Traditional Pomodoro timer (25/5 minute intervals)
 - Prompt for mood(s) after each session
 - Optional quick notes field
-- Daily/weekly visualization of:
+- Daily/weekly/task-level visualization of:
     - Mood trends
     - Completion rates
     - Time of day patterns
 
 
 # Goals (roughly in order of importance)
-- Keeping scope minimal, aimed to be a "do it in a day" project
+- Keeping scope minimal, aimed to be a "do it in a weekend" project
 - Refine understanding and use of [Effect](https://effect.website), particularly clientside in the browser
 - Focus on local-only (but without closing off a way to eventually sync with a server)
     - ^ related to that, wanting to use and understand the IndexedDB API  
