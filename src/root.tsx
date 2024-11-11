@@ -4,8 +4,6 @@ import { RouterHead } from "./router-head";
 import { isDev } from "@builder.io/qwik/build";
 import "@fontsource-variable/rubik";
 
-import "./global.css";
-
 export default component$(() => {
   //Global styles, some basic resets & defaults
   useStyles$(`
@@ -101,8 +99,10 @@ button, input, select, textarea {
 
 button {
   background: none;
-  border: none;
-  padding: 0;
+  border: 1px solid #4299e1;
+  color: #4299e1;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
 }
   `);

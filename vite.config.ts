@@ -19,7 +19,10 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
 /**
  * Note that Vite normally starts from `index.html` but the qwikCity plugin makes start at `src/entry.ssr.tsx` instead.
  */
-export default defineConfig(({ command, mode }): UserConfig => {
+export default defineConfig((
+  //@ts-expect-error   until the ssr code below is uncommented, these two are unused
+  { command, mode }
+): UserConfig => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
     // This tells Vite which dependencies to pre-build in dev mode.
